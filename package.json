@@ -2,7 +2,8 @@
   "name": "search-crawl-engine",
   "version": "1.0.0",
   "description": "a crawl search engine",
-  "main": "index.js",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "tsc",
@@ -21,6 +22,14 @@
   "files": [
     "lib/**/*"
   ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yahalou/search-crawl-engine.git"
+  },
+  "bugs": {
+    "url": "https://github.com/yahalou/search-crawl-engine/issues"
+  },
+  "homepage": "https://github.com/yahalou/search-crawl-engine/#readme",
   "devDependencies": {
     "@eslint/js": "^9.0.0",
     "eslint": "^9.0.0",
