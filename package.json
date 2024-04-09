@@ -1,0 +1,31 @@
+{
+  "name": "search-crawl-engine",
+  "version": "1.0.0",
+  "description": "a crawl search engine",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc",
+    "lint": "eslint .",
+    "format": "prettier --write \"src/**/*.ts\" \"src/**/*.js\""
+  },
+  "keywords": [
+    "search"
+  ],
+  "author": "Heisenberg",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.6.8",
+    "puppeteer": "^22.6.3"
+  },
+  "files": [
+    "lib/**/*"
+  ],
+  "devDependencies": {
+    "@eslint/js": "^9.0.0",
+    "eslint": "^9.0.0",
+    "globals": "^15.0.0",
+    "prettier": "^3.2.5",
+    "typescript-eslint": "^7.6.0"
+  }
+}
