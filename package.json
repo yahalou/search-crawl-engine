@@ -1,6 +1,6 @@
 {
   "name": "search-crawl-engine",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "a crawl search engine",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
@@ -8,7 +8,9 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "tsc",
     "lint": "eslint .",
-    "format": "prettier --write \"src/**/*.ts\" \"src/**/*.js\""
+    "format": "prettier --write \"src/**/*.ts\" \"src/**/*.js\"",
+    "prepare": "npm run build",
+    "prepublishOnly": "npm run lint"
   },
   "keywords": [
     "search"
